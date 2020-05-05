@@ -2,12 +2,13 @@
     height: 100%;
     width: 300px;
     position: fixed;
+    border-radius: 15px;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #d9d9d9;
     overflow-x: hidden;
-    padding-top: 50px;
+    padding-top: 30px;
   }
   .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -24,6 +25,12 @@
     font-family: monospace;
   }
     
+  .icon-plane{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   .icon-plane a{
     display: inline-block;
     text-align: unset;
@@ -31,6 +38,12 @@
     font-size: 30px;
   }
 
+  .icon-plane-about{
+    display:flex;    
+    flex-direction: row;
+    justify-content: space-around;
+    font-size:150px;
+  }
   .subdiv {
     border: #777;
     border-radius: 15px;
@@ -44,6 +57,12 @@
     font-family: monospace;
     font-variant: small-caps;
     font-size: 25px;
+  }
+
+  .subdiv h5{
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 15px;
   }
 
   .subdiv p{
@@ -150,7 +169,102 @@ font-family: monospace;
 
 .icon-button:hover .fa-twitter-square,
 .icon-button:hover .fa-facebook-square,
-.icon-button:hover .fa-linkedin-in
+.icon-button:hover .fa-linkedin-in,
 .icon-button:hover .fa-github-square {
 	color: white;
 }
+
+
+.icon-plane-about .fa-java {
+	color: #4099ff;
+}
+.icon-plane-about .fa-android {
+	color: #05941d;
+}
+.icon-plane-about .fa-angular {
+	color: #ff0000;
+}
+
+.icon-plane-about .fa-windows {
+	color: #01080e;
+};
+
+
+.timeline body {
+  background: linear-gradient(55deg,#4E75B9 30%,#5CBF98 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 12vh 100px;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+  box-sizing: border-box;  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.timeline {
+  width: 75%;
+  max-width: 800px;
+  background: #d9d9d9;
+  padding: 100px 50px;
+  position: relative;
+  box-shadow: 0.5rem 0.5rem 2rem 0;  
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 375px;
+  padding-top: 30px;
+}
+
+
+
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;          
+  }
+
+  .entry  h3 {
+    margin: 0;
+    font-size: 120%;
+  }   
+  .entry p{
+    margin: 0;
+    font-size: 100%;
+  }
+
+  .entry title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+    text-align: right;
+    position: relative;
+  }
+  .timeline body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: 30px;      
+  }
+
+  .body p {
+    line-height: 1.4em;      
+  }
+
+  .body  ul {
+    color:#070707;
+    padding-left: 25px;
+    list-style-type: square ;
+  }
+
+  .timeline hr{
+    border-style: groove;
+  }
