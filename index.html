@@ -4,12 +4,13 @@
     <link rel="stylesheet" type="text/css" href=".\contents\all.css">  
     <link rel="stylesheet" type="text/css"  href=".\contents\styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="./src/app.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 <body>    
     <div class = "container">
       <div class = "row">
-          <div class = "col-lg-2 toggled">
+          <div id = "SideNavigation" class = "col-lg-2 toggled">
             <div class = "sidenav" data-toggle="collapse">            
               <!--<img src="F:\Portfolio_Resume\contents\profile_img.jpg" alt="Avatar">-->
               <div class="text-center">
@@ -32,7 +33,7 @@
               <a href="#Education"><i class="fa fa-graduation-cap"></i> Education</a>
               <a href="#Certifications"><i class="fa fa-certificate"></i> Certifications</a>
               <a href="#Projects"><i class="fa fa-code"></i> Works</a>  
-              <a href="#Contact"><i class="fa fa-inbox"></i> Contact</a>          
+              <a href="#Contact"><i class="fa fa-inbox"></i> Contact <button style = "float: right" onclick="myFunction()"><i class="fa fa-bars"></i></button> </a>          
             </div>                       
           </div>
           <div class = "col-lg-10">

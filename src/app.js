@@ -1,6 +1,8 @@
-var app = angular.module("myShoppingList", []);
-app.controller("myCtrl", function($scope) {
-  
-});
-
-
+function myFunction() {
+    var x = document.getElementById("SideNavigation");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
