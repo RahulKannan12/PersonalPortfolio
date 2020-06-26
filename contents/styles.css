@@ -309,9 +309,9 @@ font-family: monospace;
 .entry {
   width: 90%;      
   }
+  
 
-
-  @media only screen and (max-width: 480px){
+  @media only screen and (max-width: 600px){
     #SideNavigation{
       display: none
     }
