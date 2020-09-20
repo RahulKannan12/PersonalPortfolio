@@ -82,6 +82,16 @@ html {
     font-family: roboto, sans-serif;
     font-size: larger;
   }
+
+  #projects p{
+    font-family: roboto, sans-serif;
+    font-size: small;
+  }
+
+  #Tech{
+    font-style: italic;
+  }
+
   .subdiv ul{
     font-family: roboto, sans-serif;
     font-size: larger;
